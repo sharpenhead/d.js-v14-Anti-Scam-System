@@ -9,8 +9,11 @@ When copying over the files from this repository, remember to adjust the file pa
 
 ### `❗` **Requirements:**
 You need the antiscam schema for this command to work.
+
 **⤷ Location:** d.js-v14-Anti-Scam-System/Models/antiscam.js
+
 **⤷ Location:** d.js-v14-Anti-Scam-System/Models/antiscamLogChannel.js
+
 **⤷** `📁` Place these two in the folder where you keep all your schemas.
 
 Then you need the messageCreate event.
