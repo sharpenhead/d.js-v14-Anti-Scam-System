@@ -15,4 +15,4 @@ When copying over the files from this repository, remember to adjust the file pa
 - Credits to shoczy#9003 (Discord ID: 709393455519891486) for providing the foundation for the enable and disable system.
 
 ### `📝` **Side note:**
-Please contact me via Discord, RexoPlays's brother #3085, if you have any questions, problems with the system, or if a step is unclear, and I will try my best to assist you!
+Please contact me via Discord, RexoPlays's brother#3085, if you have any questions, problems with the system, or if a step is unclear, and I will try my best to assist you!
