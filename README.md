@@ -30,6 +30,8 @@ Finally, download the scamLinks.json file or paste the contents into a new file.
 
 **⤷ Location:** [d.js-v14-Anti-Scam-System/scamLinks.json](https://github.com/sharpenhead/d.js-v14-Anti-Scam-System/blob/main/scamLinks.json)
 
+**⤷** `⚠️` Please note that your browser _may_ lag when opening the file linked above.
+
 **⤷** `📁` Place outside of all the folders; where you keep your `index.js` file.
 
 ### `🔧` **Command:**
