@@ -7,6 +7,20 @@ This is a multi-guild anti-scam system that you may enable and disable for your 
 ### `⚠️` **Warning:**
 When copying over the files from this repository, remember to adjust the file paths to match the files on your bot. Also remember to modify the embed colors to your preference.
 
+### `❗` **Requirements:**
+You need the antiscam schema for this command to work.
+**⤷ Location:** d.js-v14-Anti-Scam-System/Models/antiscam.js
+**⤷ Location:** d.js-v14-Anti-Scam-System/Models/antiscamLogChannel.js
+**⤷** `📁` Place these two in the folder where you keep all your schemas.
+
+Then you need the messageCreate event.
+**⤷ Location:** d.js-v14-Anti-Scam-System/Events/Client/antiscammessageCreate.js
+**⤷** `📁` Place in `Events > Client`.
+
+Finally, download the scamLinks.json file or paste the contents into a new file.
+**⤷ Location:** d.js-v14-Anti-Scam-System/scamLinks.json
+**⤷** `📁` Place outside of all the folders; where you keep your `index.js` file.
+
 ### `🔧` **Command:**
 - /setup-antiscam **➜** Allows admins to enable or disable the anti-scam system.
 
