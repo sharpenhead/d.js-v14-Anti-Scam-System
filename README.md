@@ -12,12 +12,12 @@ You need the antiscam schema for this command to work.
 
 **⤷ Location:** [d.js-v14-Anti-Scam-System/Models/antiscam.js](https://github.com/sharpenhead/d.js-v14-Anti-Scam-System/blob/main/Models/antiscam.js)
 
-**⤷ Location:** d.js-v14-Anti-Scam-System/Models/antiscamLogChannel.js
+**⤷ Location:** [d.js-v14-Anti-Scam-System/Models/antiscamLogChannel.js](https://github.com/sharpenhead/d.js-v14-Anti-Scam-System/blob/main/Models/antiscamLogChannel.js)
 
 **⤷** `📁` Place these two in the folder where you keep all your schemas.
 
 Then you need the messageCreate event.
-**⤷ Location:** d.js-v14-Anti-Scam-System/Events/Client/antiscammessageCreate.js
+**⤷ Location:** [d.js-v14-Anti-Scam-System/Events/Client/antiscammessageCreate.js](https://github.com/sharpenhead/d.js-v14-Anti-Scam-System/blob/main/Events/Client/antiscammessageCreate.js)
 **⤷** `📁` Place in `Events > Client`.
 
 Finally, download the scamLinks.json file or paste the contents into a new file.
