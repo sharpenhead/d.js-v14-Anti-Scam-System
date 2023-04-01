@@ -1,5 +1,6 @@
 const { PermissionFlagsBits, EmbedBuilder } = require("discord.js");
 const antiscamSchema = require("../../Models/antiscam");
+const antiscamLogSchema = require("../../Models/antiscamLogChannel");
 
 module.exports = {
     name: "messageCreate",
@@ -10,6 +11,7 @@ module.exports = {
         const guild = message.guild;
 
         let requireDB = await antiscamSchema.findOne({ _id: guild.id });
+        const logSchema = await antiscamLogSchema.findOne({ Guild: guild.id });
         if (!requireDB) return;
 
         if (requireDB.logs === false) return;
@@ -20,8 +22,8 @@ module.exports = {
             const scamlinks = scamLinks.known_links;
 
             const embed = new EmbedBuilder()
-                .setColor("0x2f3136")
-                .setDescription(`:warning: | <@${message.author.id}> has sent a harmful link.`)
+                .setColor(warningColor)
+                .setDescription(`\`⚠️\` **•** <@${message.author.id}> has sent a harmful link.`)
 
             // https://github.com/nateethegreat/Discord-Scam-Links
 
@@ -31,7 +33,7 @@ module.exports = {
                     await message.delete();
 
                     // Put log channel ID in here.
-                    const logChannel = client.channels.cache.get("LOG-CHANNEL-ID");
+                    const logChannel = client.channels.cache.get(logSchema.logChannel);
 
                     // For sending message into original channel.
                     message.channel.send({ embeds: [embed] });
@@ -40,10 +42,15 @@ module.exports = {
                     logChannel.send({
                         embeds: [
                             new EmbedBuilder()
-                                .setColor("0x2f3136")
+                                .setColor(mainColor)
                                 .setDescription(`<@${message.author.id}> has sent a harmful link.\n\`\`\`${message.content}\`\`\``)
+                                .setFooter({ text: `User ID: ${message.author.id}` })
+                                .setTimestamp()
                         ]
                     });
+
+                    // This system can be used with MongoDB for an enable/disable command.
+                    // Example bot with this system: (not an ad) https://dsc.gg/mabu-bot
                 }
             }
         }
