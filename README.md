@@ -10,7 +10,7 @@ When copying over the files from this repository, remember to adjust the file pa
 ### `❗` **Requirements:**
 You need the antiscam schema for this command to work.
 
-**⤷ Location:** (d.js-v14-Anti-Scam-System/Models/antiscam.js)[https://github.com/sharpenhead/d.js-v14-Anti-Scam-System/blob/main/Models/antiscam.js]
+**⤷ Location:** [d.js-v14-Anti-Scam-System/Models/antiscam.js](https://github.com/sharpenhead/d.js-v14-Anti-Scam-System/blob/main/Models/antiscam.js)
 
 **⤷ Location:** d.js-v14-Anti-Scam-System/Models/antiscamLogChannel.js
 
