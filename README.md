@@ -11,7 +11,7 @@ When copying over the files from this repository, remember to adjust the file pa
 - /setup-antiscam **➜** Allows admins to enable or disable the anti-scam system.
 
 ### `💳` **Credits:**
-- Credits to LightAndy#7161 (Discord ID: 816358066123309129) for supplying the messageCreate and scamLinks.json files.
+- Credits to NotNate#0278 (Discord ID: 667925612274384908) for supplying the messageCreate and scamLinks.json files.
 - Credits to shoczy#9003 (Discord ID: 709393455519891486) for providing the foundation for the enable and disable system.
 
 ### `📝` **Side note:**
