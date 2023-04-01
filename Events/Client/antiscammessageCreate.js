@@ -48,9 +48,6 @@ module.exports = {
                                 .setTimestamp()
                         ]
                     });
-
-                    // This system can be used with MongoDB for an enable/disable command.
-                    // Example bot with this system: (not an ad) https://dsc.gg/mabu-bot
                 }
             }
         }
